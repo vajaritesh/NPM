@@ -1,0 +1,19 @@
+#Create new branch
+git checkout -b branch1
+#Check status
+git status
+#Modifie fiel index.js
+vi index.js
+Edit line return "hello NPM! From Branch1"
+#Check status
+git status
+index.js should be in red with modified version
+#Add modified index.js to staging area
+git add index.js
+#Commit index.js file
+git commit -m "Modified index.js in the branch branch2"
+#Push branch1 to your remote repository so other can use it.
+git push origin
+This command will give error as there are no branch1 on GitHub, so use following command
+git push --set-upstream origin branch1
+This will create pull request on GitHub to merge into main branch
