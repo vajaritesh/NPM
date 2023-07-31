@@ -1,6 +1,13 @@
 Welcome to the Git wiki!
 <html>
 <body>
+<ul>
+  <li>  git init    </li>
+  <li>  git commit -m "first commit"    </li>
+  <li>  git branch -M main    </li>
+  <li>  git remote add origin git@github.com:vajaritesh/Angular.git    </li>
+  <li>  git push -u origin main    </li>
+</ul>
 
 Git task | Notes | Git commands
 -- | -- | --
